@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-CV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eaf4793439.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="heder-text">
+                <p>Hello</p>
+                <h1>I'm <samp> Suraj</samp> Kalhapure <br> from India, <br> And I'm <samp> Developer. </samp> </h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------About------------------------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cal-1">
+                    <img src="./images/00111-Recovered.png" alt="user">
+                </div>
+                <div class="about-cal-2">
+                    <h1 class="sub-titale">About Me</h1>
+                    <p>I am a hard working, honest individual. I am a good timekeeper, always willing to learn new
+                        skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work
+                        independently in busy environments and also within a team setting. I am outgoing and tactful,
+                        and able to listen effectively when solving problems.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Designing Web/App Interfaces</li>
+                            <li><span>CSS</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Java Script</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Jquary</span><br>Designing Web/App Interfaces</li>
+                            <li><span>PHP</span><br>Designing Web/App Interfaces</li>
+                            <!-- <li><span>.NET</span><br>Designing Web/App Interfaces</li> -->
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>SMBIT Multi Services (Internship)</span><br>1<sup>st</sup> Aug 2023 To
+                                28<sup>th</sup> Feb 2024. <br> Working On <b>PHP</b> Projects.</li>
+                            <!-- <li><span>UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>UX</span><br>Designing Web/App Interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MSC.(Comp Sci)-2024</span><br><b>67.35%</b> -First Class</li>
+                            <li><span>BSC.(Comp Sci)-2021</span><br><b>72.05%</b> -First Class With Distinction</li>
+                            <li><span>HSC-2017</span><br><b>65.69%</b> -First Class</li>
+                            <li><span>SSC-2015</span><br><b>60.80%</b> -First Class</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------Servises----------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titale">My Servises</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <!-- <p><b>We Design</b></p><br>
+                    <ul type="squares">
+                        <li>User Interface Design</li>
+                        <li>Web Design</li>
+                        <li>Graphic Design</li>
+                    </ul> -->
+                    <p>I have experience in web design, focusing on modern and responsive layouts.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I have a diverse background in web development, and I am passionate about building websites.</p>
+                    <!-- <p><b>We Develop</b></p><br>
+                    <ul type="squares">
+                        <li>Static Web Page</li>
+                        <li>Dynamic Web Page</li>
+                        <li>Web Application</li>
+                    </ul> -->
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>I am passionate about developing mobile applications with a focus on user experience.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------portfolio------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titale">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>VS Photography</h3>
+                        <p>I have a diverse background in
+                            [relevant experiences], and I am passionate about [industry or
+                            field]. </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Vehicle Parking Management System</h3>
+                        <p>I have a diverse background in
+                            [relevant experiences], and I am passionate about [industry or
+                            field]. </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Swayamnirmiti</h3>
+                        <p>I have a diverse background in
+                            [relevant experiences], and I am passionate about [industry or
+                            field]. </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------contact---------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-location-dot"></i>Pune Maharastra - 411011</p>
+                    <p><i class="fas fa-phone"></i>+91-7083006949</p>
+                    <p><i class="fas fa-envelope"></i>surajkalhapure143@gmail.com</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-whatsapp-square"></i></a>
+                        <a href=""><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <a href="images/Suraj Kalhapure Resume .pdf" download class="btn btn2">Downlod CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="message" id="" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <samp id="msg"></samp>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy By Suraj <i class="far fa-heart"></i> hi</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="style.js"></script>
+</body>
+
+</html>
